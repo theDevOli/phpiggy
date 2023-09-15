@@ -1,0 +1,18 @@
+{
+  "name": "oli/phpiggy",
+  "description": "A PHP application for  tracking expenses",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Daniel Oliveira",
+      "email": "ca.daniel@outlook.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework",
+      "App\\": "src/App"
+    }
+  }
+}
